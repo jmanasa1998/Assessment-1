@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.userservice.InMemoryUserServiceTest" time="0.117" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/manasajakkuluri/Downloads/user-service-vertx/target/test-classes:/Users/manasajakkuluri/Downloads/user-service-vertx/target/classes:/Users/manasajakkuluri/.m2/repository/io/vertx/vertx-core/5.0.0/vertx-core-5.0.0.jar:/Users/manasajakkuluri/.m2/repository/io/vertx/vertx-core-logging/5.0.0/vertx-core-logging-5.0.0.jar:/Users/manasajakkuluri/.m2/repository/io/netty/netty-common/4.2.1.Final/netty-common-4.2.1.Final.jar:/Users/manasajakkuluri/.m2/repository/io/netty/netty-buffer/4.2.1.Final/netty-buffer-4.2.1.Final.jar:/Users/manasajakkuluri/.m2/repository/io/netty/netty-transport/4.2.1.Final/netty-transport-4.2.1.Final.jar:/Users/manasajakkuluri/.m2/repository/io/netty/netty-handler/4.2.1.Final/netty-handler-4.2.1.Final.jar:/Users/manasajakkuluri/.m2/repository/io/netty/netty-transport-native-unix-common/4.2.1.Final/netty-transport-native-unix-common-4.2.1.Final.jar:/Users/manasajakkuluri/.m2/repository/io/netty/netty-codec-base/4.2.1.Final/netty-codec-base-4.2.1.Final.jar:/Users/manasajakkuluri/.m2/repository/io/netty/netty-handler-proxy/4.2.1.Final/netty-handler-proxy-4.2.1.Final.jar:/Users/manasajakkuluri/.m2/repository/io/netty/netty-codec-socks/4.2.1.Final/netty-codec-socks-4.2.1.Final.jar:/Users/manasajakkuluri/.m2/repository/io/netty/netty-codec-http/4.2.1.Final/netty-codec-http-4.2.1.Final.jar:/Users/manasajakkuluri/.m2/repository/io/netty/netty-codec-compression/4.2.1.Final/netty-codec-compression-4.2.1.Final.jar:/Users/manasajakkuluri/.m2/repository/io/netty/netty-codec-http2/4.2.1.Final/netty-codec-http2-4.2.1.Final.jar:/Users/manasajakkuluri/.m2/repository/io/netty/netty-resolver/4.2.1.Final/netty-resolver-4.2.1.Final.jar:/Users/manasajakkuluri/.m2/repository/io/netty/netty-resolver-dns/4.2.1.Final/netty-resolver-dns-4.2.1.Final.jar:/Users/manasajakkuluri/.m2/repository/io/netty/netty-codec-dns/4.2.1.Final/netty-codec-dns-4.2.1.Final.jar:/Users/manasajakkuluri/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.2/jackson-core-2.18.2.jar:/Users/manasajakkuluri/.m2/repository/io/vertx/vertx-web/5.0.0/vertx-web-5.0.0.jar:/Users/manasajakkuluri/.m2/repository/io/vertx/vertx-web-common/5.0.0/vertx-web-common-5.0.0.jar:/Users/manasajakkuluri/.m2/repository/io/vertx/vertx-auth-common/5.0.0/vertx-auth-common-5.0.0.jar:/Users/manasajakkuluri/.m2/repository/io/vertx/vertx-bridge-common/5.0.0/vertx-bridge-common-5.0.0.jar:/Users/manasajakkuluri/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/Users/manasajakkuluri/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/manasajakkuluri/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/manasajakkuluri/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/manasajakkuluri/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/Users/manasajakkuluri/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/24.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/manasajakkuluri/Downloads/user-service-vertx/target/surefire/surefirebooter-20250725113728643_3.jar /Users/manasajakkuluri/Downloads/user-service-vertx/target/surefire 2025-07-25T11-37-28_510-jvmRun1 surefire-20250725113728643_1tmp surefire_0-20250725113728643_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/manasajakkuluri/Downloads/user-service-vertx/target/test-classes:/Users/manasajakkuluri/Downloads/user-service-vertx/target/classes:/Users/manasajakkuluri/.m2/repository/io/vertx/vertx-core/5.0.0/vertx-core-5.0.0.jar:/Users/manasajakkuluri/.m2/repository/io/vertx/vertx-core-logging/5.0.0/vertx-core-logging-5.0.0.jar:/Users/manasajakkuluri/.m2/repository/io/netty/netty-common/4.2.1.Final/netty-common-4.2.1.Final.jar:/Users/manasajakkuluri/.m2/repository/io/netty/netty-buffer/4.2.1.Final/netty-buffer-4.2.1.Final.jar:/Users/manasajakkuluri/.m2/repository/io/netty/netty-transport/4.2.1.Final/netty-transport-4.2.1.Final.jar:/Users/manasajakkuluri/.m2/repository/io/netty/netty-handler/4.2.1.Final/netty-handler-4.2.1.Final.jar:/Users/manasajakkuluri/.m2/repository/io/netty/netty-transport-native-unix-common/4.2.1.Final/netty-transport-native-unix-common-4.2.1.Final.jar:/Users/manasajakkuluri/.m2/repository/io/netty/netty-codec-base/4.2.1.Final/netty-codec-base-4.2.1.Final.jar:/Users/manasajakkuluri/.m2/repository/io/netty/netty-handler-proxy/4.2.1.Final/netty-handler-proxy-4.2.1.Final.jar:/Users/manasajakkuluri/.m2/repository/io/netty/netty-codec-socks/4.2.1.Final/netty-codec-socks-4.2.1.Final.jar:/Users/manasajakkuluri/.m2/repository/io/netty/netty-codec-http/4.2.1.Final/netty-codec-http-4.2.1.Final.jar:/Users/manasajakkuluri/.m2/repository/io/netty/netty-codec-compression/4.2.1.Final/netty-codec-compression-4.2.1.Final.jar:/Users/manasajakkuluri/.m2/repository/io/netty/netty-codec-http2/4.2.1.Final/netty-codec-http2-4.2.1.Final.jar:/Users/manasajakkuluri/.m2/repository/io/netty/netty-resolver/4.2.1.Final/netty-resolver-4.2.1.Final.jar:/Users/manasajakkuluri/.m2/repository/io/netty/netty-resolver-dns/4.2.1.Final/netty-resolver-dns-4.2.1.Final.jar:/Users/manasajakkuluri/.m2/repository/io/netty/netty-codec-dns/4.2.1.Final/netty-codec-dns-4.2.1.Final.jar:/Users/manasajakkuluri/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.2/jackson-core-2.18.2.jar:/Users/manasajakkuluri/.m2/repository/io/vertx/vertx-web/5.0.0/vertx-web-5.0.0.jar:/Users/manasajakkuluri/.m2/repository/io/vertx/vertx-web-common/5.0.0/vertx-web-common-5.0.0.jar:/Users/manasajakkuluri/.m2/repository/io/vertx/vertx-auth-common/5.0.0/vertx-auth-common-5.0.0.jar:/Users/manasajakkuluri/.m2/repository/io/vertx/vertx-bridge-common/5.0.0/vertx-bridge-common-5.0.0.jar:/Users/manasajakkuluri/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/Users/manasajakkuluri/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/manasajakkuluri/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/manasajakkuluri/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/manasajakkuluri/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/Users/manasajakkuluri/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/manasajakkuluri"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/24.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/manasajakkuluri/Downloads/user-service-vertx"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/manasajakkuluri/Downloads/user-service-vertx/target/surefire/surefirebooter-20250725113728643_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="24.0.1"/>
+    <property name="user.name" value="manasajakkuluri"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/manasajakkuluri/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/2p/1mc_q1rd2sn68ssndr4fgvy00000gn/T/"/>
+    <property name="java.version" value="24.0.1"/>
+    <property name="user.dir" value="/Users/manasajakkuluri/Downloads/user-service-vertx"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/manasajakkuluri/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="24.0.1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="testUpdateEmail" classname="com.example.userservice.InMemoryUserServiceTest" time="0.059"/>
+  <testcase name="testDeleteUser" classname="com.example.userservice.InMemoryUserServiceTest" time="0.003"/>
+  <testcase name="testUserNotFound" classname="com.example.userservice.InMemoryUserServiceTest" time="0.004"/>
+  <testcase name="testCreateAndRetrieveUser" classname="com.example.userservice.InMemoryUserServiceTest" time="0.003"/>
+</testsuite>

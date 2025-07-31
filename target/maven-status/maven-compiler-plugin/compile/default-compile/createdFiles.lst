@@ -1,0 +1,6 @@
+com/example/userservice/UserVerticle.class
+com/example/userservice/InMemoryUserService.class
+com/example/userservice/UserNotFoundException.class
+com/example/userservice/UserService.class
+com/example/userservice/User.class
+com/example/userservice/MainApp.class
